@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+::-webkit-scrollbar-track {
+  border-radius: 0.125rem;
+  background-color: lightgray;
+}
+::-webkit-scrollbar {
+  width: 0.25rem;
+  border-radius: 0.125rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0.125rem;
+  background-color: gray;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.revo {
+  color: #fe7a15;
+  font-size: 1.5vmin; 
+}
+.rell {
+  color: #fe7a15;
+}
+
+
+.access {
+  display:none;
+  position: absolute;
+  padding: 1px;
+  color: #ddd;
+  top: 0;
+  text-align: center;
+  z-index: -1;
+  left: 0;
+  top: 50%;
+  font-size: 2.5vh;
+  -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 85%; }
+}
+
+@keyframes slide {
+  100% { left: 85%; }
+}
